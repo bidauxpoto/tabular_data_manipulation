@@ -1,4 +1,4 @@
-{% set name = "Package Name" %}
+{% set name = "tabular_data_manipulation" %} #no spaces
 {% set version = "1.0" %}
 
 package:
@@ -11,12 +11,14 @@ source:
 requirements:
   host:
     - perl
+    - python>=3
   run:
     - perl
+    - python>=3
 
 about:
-  home: URL to Github
-  summary: Something something
+  home: https://github.com/bidauxpoto/tabular_data_manipulation 
+  summary: Unix power tools to manipuate data in tabular format
 
 #Simple python packages can work as simple noarch
 #build:
